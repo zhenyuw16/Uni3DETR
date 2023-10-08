@@ -119,8 +119,6 @@ mmdet3d/.mim
 *.pth
 
 # demo
-*.jpg
-*.png
 data/
 *.obj
 *.ply
