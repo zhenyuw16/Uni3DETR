@@ -6,7 +6,7 @@ Code release for our NeurIPS 2023 paper
 Zhenyu Wang, Yali Li, Xi Chen, Hengshuang Zhao, Shengjin Wang
 
 <div align="center">
-  <img src="docs/Uni3DETR.png"/>
+  <img src="docs/uni3detr.png"/>
 </div><br/>
 
 This project provides an implementation for our NeurIPS 2023 paper "[Uni3DETR: Unified 3D Detection Transformer](https://arxiv.org/)" based on [mmDetection3D](https://github.com/open-mmlab/mmdetection3d). Uni3DETR provides a unified structure for both indoor and outdoor 3D object detection.
