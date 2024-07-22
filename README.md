@@ -1,15 +1,23 @@
 
-# Uni3DETR
-Code release for our NeurIPS 2023 paper
-**Uni3DETR: Unified 3D Detection Transformer**
+# Uni3DETR & OV-Uni3DETR
 
-Zhenyu Wang, Yali Li, Xi Chen, Hengshuang Zhao, Shengjin Wang
+This includes code for:
+our NeurIPS 2023 paper
+[**Uni3DETR: Unified 3D Detection Transformer**](https://arxiv.org/pdf/2310.05699)
 
 <div align="center">
   <img src="docs/uni3detr.png"/>
 </div><br/>
 
-This project provides an implementation for our NeurIPS 2023 paper "[Uni3DETR: Unified 3D Detection Transformer](https://arxiv.org/)" based on [mmDetection3D](https://github.com/open-mmlab/mmdetection3d). Uni3DETR provides a unified structure for both indoor and outdoor 3D object detection.
+our ECCV 2024 paper
+[**OV-Uni3DETR: Towards Unified Open-Vocabulary 3D Object Detection via Cycle-Modality Propagation**](https://arxiv.org/pdf/2403.19580)
+
+<div align="center">
+  <img src="docs/ovuni3detr.png"/>
+</div><br/>
+
+Uni3DETR provides a unified structure for both indoor and outdoor 3D object detection.
+Based on this architecture, OV-Uni3DETR further introduces multi-modal learning and open-vocabulary learning to achieve modality unifying and category unifying with a unified structure.
 
 ## Preparation
 This project is based on [mmDetection3D](https://github.com/open-mmlab/mmdetection3d), which can be constructed as follows.
@@ -20,6 +28,7 @@ cp -r projects mmdetection3d/
 cp -r extra_tools mmdetection3d/
 ```
 * Prepare the dataset following -----------
+We will release dataset preparation steps and checkpoints of OV-Uni3DETR soon.
 
 ## Training
 ```bash
