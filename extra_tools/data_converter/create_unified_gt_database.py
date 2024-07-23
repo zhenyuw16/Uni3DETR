@@ -142,8 +142,8 @@ def create_groundtruth_database(dataset_class_name,
             gt_points = points[point_indices[:, i]]
             gt_points[:, :3] -= gt_boxes_3d[i, :3]
 
-            with open(abs_filepath, 'w') as f:
-                gt_points.tofile(f)
+            # with open(abs_filepath, 'w') as f:
+            #     gt_points.tofile(f)
 
             img_crop, crop_key, crop_depth = find_img_crop(annos['gt_bboxes_3d'][i].corners.numpy(), input_img, input_info,  points[point_indices[:, i]])
             if img_crop is not None:

@@ -235,6 +235,15 @@ def main():
     # add an attribute for visualization convenience
     model.CLASSES = datasets[0].CLASSES
 
+    # for v in model.parameters():
+    #    v.requires_grad = False
+    # for v in model.pts_backbone.parameters():
+    #     v.requires_grad = False
+    # for v in model.pts_neck.parameters():
+    #     v.requires_grad = False
+    # for v in model.pts_middle_encoder.parameters():
+    #     v.requires_grad = False
+
     train_model(
         model,
         datasets,
